@@ -9,7 +9,7 @@ import {
 import Home from "@/pages/page.jsx";
 import Discussion from "@/pages/discuss/page.jsx";
 import GifExtractor from "@/pages/gif-extractor/page.jsx";
-import { NotFound } from "@/pages/_404.jsx";
+import { NotFound } from "@/pages/404.jsx";
 
 import "@/global.css";
 import { FontPreloader } from "@/components/fontpreload.jsx";
