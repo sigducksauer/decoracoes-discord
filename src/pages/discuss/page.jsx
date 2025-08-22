@@ -22,11 +22,12 @@ export default function Discussion() {
             import.meta.env.VITE_BASE_IMAGE_URL ||
             "https://sigducksauer.github.io/decoracoes-discord/public"
           }/giscus.css`}
-          lang="en"
+          lang="pt"
           loading="lazy"
         />
       </div>
     </main>
   );
 }
+
 
