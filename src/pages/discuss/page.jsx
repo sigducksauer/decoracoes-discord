@@ -18,11 +18,15 @@ export default function Discussion() {
           reactionsEnabled="1"
           emitMetadata="0"
           inputPosition="top"
-          theme="preferred_color_scheme"
-          lang="pt"
+          theme={`${
+            import.meta.env.VITE_BASE_IMAGE_URL ||
+            "https://sigducksauer.github.io/decoracoes-discord/public"
+          }/giscus.css`}
+          lang="en"
           loading="lazy"
         />
       </div>
     </main>
   );
 }
+
