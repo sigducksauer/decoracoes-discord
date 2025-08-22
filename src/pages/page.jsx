@@ -100,7 +100,7 @@ const UnsupportedModal = ({ unsupportedMsg }) =>
         <NeutralButton
           onClick={() => {
             window.open(
-              "https://github.com/ItsPi3141/discord-fake-avatar-decorations/issues"
+              "https://github.com/sigducksauer/decoracoes-discord"
             );
           }}
         >
@@ -213,7 +213,7 @@ const App = ({ ensureLoaded }) => {
               Fake Avatar Decorations Deep Store
             </h1>
             <h2 className="text-sm sm:text-base">
-              Crie fotos de perfil com decorações de avatar para que você possa usá-las
+              Crie fotos de perfil com decorações de avatar para que você possa usa-las
               no Discord gratuitamente, sem gastar dinheiro.
             </h2>
           </div>
@@ -286,7 +286,7 @@ const App = ({ ensureLoaded }) => {
               />
             </div>
             <p className="mt-4 mb-2">
-              Você também pode escolher um desses avatares abaixo
+              Você tambem pode escolher um desses avatares abaixo
             </p>
             <SearchBar
               placeholder={"Search avatars..."}
@@ -300,7 +300,7 @@ const App = ({ ensureLoaded }) => {
 
             {/* SELECT DECORATION */}
             <p className="my-2 font-semibold text-gray-300 text-sm scale-y-90 [letter-spacing:.05em]">
-              DECORAÇÃO DE AVATAR
+              DECORACAO DE AVATAR
             </p>
             <SearchBar
               placeholder={"Search decorations..."}
