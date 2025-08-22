@@ -39,4 +39,5 @@ Abrir [localhost:4173](http://localhost:4173) com seu navegador para ver a impla
 
 <img src="https://raw.githubusercontent.com/sigducksauer/sigducksauer/output/snake.svg" alt="Snake animation" />
 
+
 ###
