@@ -61,7 +61,7 @@ export default function GifExtractor() {
       {loaded ? (
         <>
           <main className="flex flex-col items-center gap-2 px-8 py-12 w-screen h-screen overflow-auto overflow-x-hidden text-white discord-scrollbar">
-            <p className="mb-8 text-3xl ginto">Gif Frame Extractor</p>
+            <p className="mb-8 text-3xl ginto">Extrator de Molduras GIF</p>
 
             {file == null ? (
               <>
@@ -88,10 +88,10 @@ export default function GifExtractor() {
                       }
                     }}
                   />
-                  Upload a GIF
+                  Carregar um GIF
                 </button>
                 <p className="text-gray-300 text-sm">
-                  You can also drag and drop a GIF file here
+                  Você tambem pode arrastar e soltar um arquivo GIF aqui
                 </p>
               </>
             ) : (
@@ -179,11 +179,11 @@ export default function GifExtractor() {
           <p className="top-8 absolute mx-8 max-w-xl font-bold text-4xl text-center ginto">
             Discord
             <br />
-            FAKE AVATAR DECORATIONS
+            DECORACOES DE AVATAR FALSAS
             <br />
             <br />
             <span className="text-gray-300 text-3xl ginto">
-              Gif Frame Extractor
+              Extrator de Molduras GIF
             </span>
           </p>
           <div className="relative bg-surface-higher rounded-full w-[calc(100vw-3rem)] max-w-84 h-8 overflow-clip">
@@ -202,3 +202,4 @@ export default function GifExtractor() {
     </>
   );
 }
+
