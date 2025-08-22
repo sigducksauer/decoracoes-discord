@@ -8,7 +8,7 @@
 Clone o repositório:
 
 ```bash
-git clone https://github.com/ItsPi3141/discord-fake-avatar-decorations        
+git clone https://github.com/sigducksauer/decoracoes-discord     
 cd decoracoes-discord
 ```
 
