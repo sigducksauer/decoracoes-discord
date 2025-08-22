@@ -21,7 +21,7 @@ export default function Discussion() {
           inputPosition="top"
           theme={`${
             import.meta.env.VITE_BASE_IMAGE_URL ||
-            "https://sigducksauer.github.io/decoracoes-discord/public"
+            "https://sigducksauer.github.io/decoracoes-discord"
           }/giscus.css`}
           lang="en"
           loading="lazy"
@@ -30,4 +30,5 @@ export default function Discussion() {
     </main>
   );
 }
+
 
