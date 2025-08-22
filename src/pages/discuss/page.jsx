@@ -12,7 +12,7 @@ export default function Discussion() {
       <div className="overflow-auto discord-scrollbar grow">
         <Giscus
           id="comments"
-          repo="ItsPi3141/discord-fake-avatar-decorations"
+          repo="sigducksauer/decoracoes-discord"
           repoId="R_kgDOKa2H1A"
           mapping="number"
           term="4"
@@ -21,7 +21,7 @@ export default function Discussion() {
           inputPosition="top"
           theme={`${
             import.meta.env.VITE_BASE_IMAGE_URL ||
-            "https://itspi3141.github.io/discord-fake-avatar-decorations/public"
+            "https://sigducksauer.github.io/decoracoes-discord/public"
           }/giscus.css`}
           lang="en"
           loading="lazy"
@@ -30,3 +30,4 @@ export default function Discussion() {
     </main>
   );
 }
+
