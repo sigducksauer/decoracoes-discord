@@ -36,7 +36,6 @@ yarn preview
 
 Open [localhost:4173](http://localhost:4173) with your browser to see the deployment.
 
-###
 
 <img src="https://raw.githubusercontent.com/sigducksauer/sigducksauer/output/snake.svg" alt="Snake animation" />
 
