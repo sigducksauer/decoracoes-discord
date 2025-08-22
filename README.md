@@ -8,8 +8,8 @@
 Clone o repositório:
 
 ```bash
-git clone https://github.com/ItsPi3141/discord-fake-avatar-decorations
-cd discord-fake-avatar-decorations
+git clone https://github.com/ItsPi3141/discord-fake-avatar-decorations        
+cd decoracoes-discord
 ```
 
 Inicie o servidor de desenvolvimento:
