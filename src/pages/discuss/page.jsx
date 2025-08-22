@@ -18,10 +18,9 @@ export default function Discussion() {
           reactionsEnabled="1"
           emitMetadata="0"
           inputPosition="top"
-          theme={`${
-            import.meta.env.VITE_BASE_IMAGE_URL ||
-            "https://sigducksauer.github.io/decoracoes-discord/public"
-          }/giscus.css`}
+          theme={
+						"https://sigducksauer.github.io/decoracoes-discord/public/giscus.css"
+					}
           lang="pt"
           loading="lazy"
         />
@@ -29,5 +28,6 @@ export default function Discussion() {
     </main>
   );
 }
+
 
 
