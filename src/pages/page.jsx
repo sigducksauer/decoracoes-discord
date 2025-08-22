@@ -105,7 +105,7 @@ const UnsupportedModal = ({ unsupportedMsg }) =>
           }}
         >
           <Icons.bug />
-          Report a bug
+          Reportar um bug
         </NeutralButton>
       </div>
     </Modal>
@@ -210,11 +210,11 @@ const App = ({ ensureLoaded }) => {
           <div className="top-0 right-0 bottom-0 left-0 z-10 absolute flex flex-col justify-center items-center p-8 md:p-12 lg:p-16 text-center">
             <h1 className="font-bold text-3xl md:text-5xl ginto">Discord</h1>
             <h1 className="mb-4 text-2xl md:text-4xl capitalize ginto">
-              Fake Avatar Decorations
+              Fake Avatar Decorations Deep Store
             </h1>
             <h2 className="text-sm sm:text-base">
-              Create profile pictures with avatar decorations so you can use
-              them in Discord for free without spending money
+              Crie fotos de perfil com decorações de avatar para que você possa usá-las
+              no Discord gratuitamente, sem gastar dinheiro.
             </h2>
           </div>
         </div>
@@ -253,7 +253,7 @@ const App = ({ ensureLoaded }) => {
                     }
                   }}
                 />
-                Upload image
+                Carregar imagem
               </button>
               <p className="sm:text-left text-center">or</p>
               <input
@@ -286,7 +286,7 @@ const App = ({ ensureLoaded }) => {
               />
             </div>
             <p className="mt-4 mb-2">
-              You can also pick from one of these avatars below
+              Você também pode escolher um desses avatares abaixo
             </p>
             <SearchBar
               placeholder={"Search avatars..."}
@@ -300,7 +300,7 @@ const App = ({ ensureLoaded }) => {
 
             {/* SELECT DECORATION */}
             <p className="my-2 font-semibold text-gray-300 text-sm scale-y-90 [letter-spacing:.05em]">
-              AVATAR DECORATION
+              DECORAÇÃO DE AVATAR
             </p>
             <SearchBar
               placeholder={"Search decorations..."}
@@ -351,7 +351,7 @@ const App = ({ ensureLoaded }) => {
                 <p className="mb-3 text-sm">{avatarName || "username"}</p>
                 <p className="text-sm">
                   {description ||
-                    "This is an example profile so that you can see what the profile picture would actually look like on Discord."}
+                    "Este é um perfil de exemplo para que você possa ver como ficaria a foto do perfil no Discord."}
                 </p>
                 <NeutralButton
                   onClick={() => {
@@ -366,7 +366,7 @@ const App = ({ ensureLoaded }) => {
                   }}
                 >
                   <Icons.image />
-                  Save image
+                  Salvar imagem
                 </NeutralButton>
               </div>
             </div>
@@ -376,26 +376,26 @@ const App = ({ ensureLoaded }) => {
                 {
                   styled: false,
                   groupStart: true,
-                  text: "Look at me I'm a beautiful butterfly",
+                  text: "Olhe para mim, sou uma linda borboleta",
                 },
                 {
                   styled: false,
                   groupStart: false,
                   text: (
                     <>
-                      Fluttering in the moonlight <Twemoji emoji={"1f31d"} />
+                      Tremulando ao luar <Twemoji emoji={"1f31d"} />
                     </>
                   ),
                 },
                 {
                   styled: false,
                   groupStart: false,
-                  text: "Waiting for the day when",
+                  text: "Esperando o dia em que",
                 },
                 {
                   styled: false,
                   groupStart: false,
-                  text: "I get an avatar decoration",
+                  text: "Eu ganho uma decoração de avatar",
                 },
                 {
                   styled: true,
@@ -404,11 +404,11 @@ const App = ({ ensureLoaded }) => {
                     <>
                       {decoUrl ? (
                         <>
-                          Yay! Here it is! <Twemoji emoji={"1f389"} />
+                          Oba! Aqui está! <Twemoji emoji={"1f389"} />
                         </>
                       ) : (
                         <>
-                          Hmm... I still don't see it{" "}
+                          Hmm... ainda não vi{" "}
                           <Twemoji emoji={"1f914"} />
                         </>
                       )}
@@ -497,17 +497,17 @@ const App = ({ ensureLoaded }) => {
             {/* pls support */}
             <div className="flex flex-col justify-start items-stretch p-4 rounded-lg w-full text-center select-none highlight">
               <p>
-                Help support the project <Twemoji emoji="1f64f" />
+                Ajude a apoiar o projeto <Twemoji emoji="1f64f" />
               </p>
               <NeutralButton
                 onClick={() => {
                   window.open(
-                    "https://github.com/ItsPi3141/discord-fake-avatar-decorations"
+                    "https://github.com/sigducksauer/decoracoes-discord"
                   );
                 }}
               >
                 <Icons.star />
-                Star on GitHub
+                Estrela no GitHub
               </NeutralButton>
               <NeutralButton
                 onClick={() => {
@@ -519,17 +519,17 @@ const App = ({ ensureLoaded }) => {
                 }}
               >
                 <Icons.link />
-                {shared ? "Copied!" : "Share the website"}
+                {shared ? "Copied!" : "Compartilhe o site"}
               </NeutralButton>
               <NeutralButton
                 onClick={() => {
                   window.open(
-                    "https://github.com/ItsPi3141/discord-fake-avatar-decorations/issues/new"
+                    "https://github.com/sigducksauer/decoracoes-discord"
                   );
                 }}
               >
                 <Icons.bug />
-                Report a bug
+                Reportar um bug
               </NeutralButton>
               <NeutralButton
                 onClick={() => {
@@ -537,7 +537,7 @@ const App = ({ ensureLoaded }) => {
                 }}
               >
                 <Icons.forum />
-                Suggest a feature
+                Sugira um recurso
               </NeutralButton>
             </div>
 
@@ -553,7 +553,7 @@ const App = ({ ensureLoaded }) => {
                 <span className="place-items-center w-6">
                   <Icons.gif size="18px" />
                 </span>
-                Extract still image from GIF
+                Extrair imagem estática de GIF
                 <span className="grow" />
                 <span className="rotate-45">
                   <Icons.up size="16px" />
@@ -562,7 +562,7 @@ const App = ({ ensureLoaded }) => {
               <a
                 className="flex justify-start items-center gap-2 mt-3 p-2 button-outline"
                 href={
-                  "https://github.com/ItsPi3141/discord-fake-avatar-decorations"
+                  "https://github.com/sigducksauer/decoracoes-discord"
                 }
                 target="_blank"
                 rel="noreferrer"
@@ -570,7 +570,7 @@ const App = ({ ensureLoaded }) => {
                 <span className="place-items-center w-6">
                   <Icons.github size="24px" />
                 </span>
-                Source code
+                Codigo fonte
                 <span className="grow" />
                 <span className="rotate-45">
                   <Icons.up size="16px" />
@@ -580,52 +580,51 @@ const App = ({ ensureLoaded }) => {
           </div>
         </div>
         <p className="mb-4 text-text-muted text-sm text-center">
-          Website made by{" "}
+          Site feito por{" "}
           <a
-            href={"https://github.com/ItsPi3141"}
+            href={"https://github.com/sigducksauer"}
             className="link"
             target="_blank"
             rel="noreferrer"
           >
-            ItsPi3141
+            sigducksauer
           </a>
           <br />
-          This project is open-source! View{" "}
+          Este projeto e de codigo aberto! Ver{" "}
           <a
             href={
-              "https://github.com/ItsPi3141/discord-fake-avatar-decorations"
+              "https://github.com/sigducksauer/decoracoes-discord"
             }
             className="link"
             target="_blank"
             rel="noreferrer"
           >
-            source code
+            codigo fonte
           </a>{" "}
-          on GitHub.
+          no GitHub.
           <br />
-          This site is NOT affiliated with Discord Inc. in any way. All images
-          and assets belong to Discord Inc.
+          Este site nao e afiliado à Discord Inc. de forma alguma. Todas as imagens
+          e ativos pertencem à Discord Inc.
           <br />
-          Discord Character avatars were created by Bred and Jace. View the
-          collection on{" "}
+          Confira mais sobre o projeto{" "}
           <a
             href={
-              "https://www.figma.com/community/file/1316822758717784787/ultimate-discord-library"
+              "https://github.com/sigducksauer"
             }
             className="link"
             target="_blank"
             rel="noreferrer"
           >
-            Figma
+            jucaskr
           </a>
         </p>
       </main>
       <Modal
-        title={"Save Decorated Avatar"}
+        title={"Salvar Avatar Decorado"}
         subtitle={
           isGeneratingAv
-            ? "Please wait while the image is being generated."
-            : "You can save the image below. You may need to extract a still frame from the image if you do not have an active Nitro subscription."
+            ? "Aguarde enquanto a imagem é gerada."
+            : "Você pode salvar a imagem abaixo. Pode ser necessário extrair um quadro estático da imagem se você não tiver uma assinatura Nitro ativa."
         }
         visible={downloadModalVisible}
         onClose={() => {
@@ -635,14 +634,14 @@ const App = ({ ensureLoaded }) => {
         {isGeneratingAv ? (
           <div className="flex flex-col justify-center items-center gap-4 grow">
             <LoadingCubes />
-            <p>Creating image...</p>
+            <p>Criando imagem...</p>
           </div>
         ) : generationFailed ? (
           <div className="flex flex-col justify-center items-center gap-4 grow">
             <p className="text-red-400 text-center">
-              Failed to generate image
+              Falha ao gerar imagem
               <br />
-              Please try again.
+              Por favor, tente novamente.
             </p>
           </div>
         ) : (
@@ -664,7 +663,7 @@ const App = ({ ensureLoaded }) => {
                   }}
                 >
                   <Icons.download />
-                  Save
+                  Salvar
                 </NeutralButton>
                 <NeutralButton
                   onClick={() => {
@@ -674,7 +673,7 @@ const App = ({ ensureLoaded }) => {
                   }}
                 >
                   <Icons.image />
-                  Extract still image
+                  Extrair imagem estatica
                 </NeutralButton>
               </div>
             </div>
